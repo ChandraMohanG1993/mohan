@@ -1,0 +1,31 @@
+<div class="container"> 
+	<td style="color: navy;"> <i class="fa fa-group"></i> Choose number of people</td>
+	
+	
+	<table class="table table-bordered">
+	  <tbody>
+		<tr>
+		  <td><i  style="color: navy;" class="fa fa-bed"></i> ROOMS</td>
+		  <td>
+			<button class="decr" (click)='roomsDec()'>-</button> {{rooms}} <button class="incr"(click)='roomsInc()'>+</button>
+		  </td>
+		</tr>
+		<tr>
+		  <td><i  style="color: navy;" class="fa fa-user"></i>  ADULTS</td>      
+		  <td>
+			<button class="decr" (click)='adultDec()'>-</button> {{adult}} <button class="incr" (click)='adultInc()'>+</button>
+	
+		  </td>
+		</tr>
+		<tr>
+		  <td><i  style="color: navy;" class="fa fa-child"></i>CHILDREN</td>      
+		  <td>
+			<button class="decr">-</button> {{children}} <button class="incr" (click)='childInc()'>+</button>
+			
+		  </td>
+		</tr>    
+	  </tbody>
+	</table>
+	
+	</div>
+	
